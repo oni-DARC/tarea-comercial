@@ -1,0 +1,58 @@
+<!-- <div class="container mt-5">
+  <h1>Bienvenidos a Nuestro Negocio</h1>
+  <p>Ofrecemos productos y servicios de alta calidad para nuestros clientes.</p>
+</div> -->
+<div class="container-fluid p-0">
+  <!-- Banner Principal -->
+  <div class="banner-home text-white d-flex justify-content-center align-items-center">
+    <div class="text-center">
+      <h1 class="display-4">Encuentra los Mejores Equipos y Accesorios para Computadoras</h1>
+      <p class="lead">Descubre una amplia gama de productos de alta calidad, diseñados para mejorar tu experiencia informática.</p>
+      <button class="btn btn-lg btn-primary mt-4" [routerLink]="['/products_service']">Explora Nuestros Productos</button>
+    </div>
+  </div>
+</div>
+
+<!-- Sección de Productos Destacados -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Nuestros Productos Destacados</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="/imagenes/laptop.png" class="card-img-top" alt="Laptop de alta gama">
+        <div class="card-body">
+          <h5 class="card-title">Laptop de Alta Gama</h5>
+          <p class="card-text">Potencia y velocidad para todas tus tareas profesionales y personales.</p>
+          <button class="btn btn-outline-primary" [routerLink]="['/products_service']">Ver más</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="/imagenes/mouse.png" class="card-img-top" alt="Mouse ergonómico">
+        <div class="card-body">
+          <h5 class="card-title">Mouse Ergonómico</h5>
+          <p class="card-text">Diseñado para largas sesiones de uso, ideal para gamers y profesionales.</p>
+          <button class="btn btn-outline-primary" [routerLink]="['/products_service']">Ver más</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="/imagenes/teclado.png" class="card-img-top" alt="Teclado mecánico">
+        <div class="card-body">
+          <h5 class="card-title">Teclado Mecánico RGB</h5>
+          <p class="card-text">Rendimiento superior y durabilidad garantizada para todos los usuarios.</p>
+          <button class="btn btn-outline-primary" [routerLink]="['/products_service']">Ver más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sección de Llamado a la Acción -->
+<div class="container-fluid bg-primary text-white text-center py-5">
+  <h2>¿Buscas Mejorar Tu Estación de Trabajo?</h2>
+  <p class="lead">Descubre cómo nuestros equipos y accesorios pueden transformar tu forma de trabajar y jugar.</p>
+  <button class="btn btn-light btn-lg mt-3" [routerLink]="['/products_service']">Ver Todos los Productos</button>
+</div>

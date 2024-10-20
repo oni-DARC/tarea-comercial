@@ -1,3 +1,9 @@
+# Estudiante
+ROGEL CALLE DIEGO ARAMANDO.
+
+# Tarea
+Desarrollar una aplicación web de tipo negocio (Página comercial) aplicando Angular. Asegúrese que la aplicación contenga al menos las ventanas Home,  Productos/Servicios, Nosotros, Contactos y Formulario de suscripción. En la sección de Productos/Servicios implemente una API que permita la gestión de los productos o servicios, esta API debe incluir url hacia imágenes, de tal manera que sea posible visualizar una galería de imágenes con los productos o servicios que se ofertan.  SUBA EL LINK DEL REPOSITORIO EN GITHUB
+
 # TareaComercial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
